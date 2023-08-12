@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="backgroundimg">
+    <div class="box">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">My Journey</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </nav>
+      <div class="container-fluid">
+        <div class="center">
+          <p id="typed-text">Hello, I'am Sura.</p>
+          <button type="button" class="btn btn-outline-light btn-lg">Get In Touch</button>
+      </div>
+      </div>
+
+    </div>
+    
+  </div>
+  <div class="row about-section" >
+    <h2>About Me</h2>
+    <div class="col-md-6">
+      <img src="sura.jpg" alt="about-image">
+    </div>
+    <div class="col-md-6">
+      Hello there! I'm a young mind born in Ethiopia, with a unique story that saw me 
+      stepping into a special boarding school at the age of 13. These formative experiences 
+      paved the way for my current journey, pursuing a degree in computer engineering at a prominent 
+      South Korean university. Alongside my studies, I've passionately pursued a range of courses, 
+      fostering a knack for creative problem-solving. By the way do you like Korean Chicken Nugget? - couz 
+      I like it so much
+    </div>
+
+  </div>
+  <div class="row our-service">
+    <h2> My Skills</h2>
+    <div class="col-md-4">
+      <img src="web-development.png" alt="service-1">
+      <p>I started learning to code when I was in high-school because I wanted to make my own video games. Over time,
+        I have gained a wealth of experience designing and developing mobile and web applications. But, I still got
+        alot to learn.</p>
+    </div>
+    <div class="col-md-4">
+      <img src="game-development.png" alt="service-2">
+      <p>I was trying to figure out how the game worked on my own. But I don't think I'm very good at this because the
+        only games I can make are ping pong and snake. </p>
+    </div>
+    <div class="col-md-4">
+      <img src="server.png" alt="service-3">
+      <p>I am the type of person who desires to be versatile. Because of my interest in networking and network
+        security, I took an online intensive class from the Palo Alto Networks company. </p>
+    </div>
+    </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide testimonials">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <img src="testimony 1.jpg" alt="testimonial-1">
+          <em>Busan, Jimin</em>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <img src="testimony 2.jpg" alt="testimonial-2">
+          <em>Seoul, Mark</em>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <img src="testimony 3.jpg" alt="testimonial-3">
+          <em>Daejon, Elijah</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+
+  </div>
+  <div class="foot">
+    <div>
+      <a href="#"><img src="discord.png" alt=""></a>
+      <a href="https://www.facebook.com/sura.habtamu.3/"><img src="facebook-app-symbol.png" alt=""></a>
+      <a href="https://www.linkedin.com/in/sura-habtamu-abdissa-0270a0267/"><img src="linkedin.png" alt=""></a>
+      <a href="https://www.instagram.com/lucky_9uard"><img src="instagram.png" alt=""></a>
+      <a href="#"><img src="email.png" alt=""></a>
+      <a href="#"><img src="github.png" alt=""></a>
+    </div>
+    <em>Dongseo University, Busan, South Korea, 2023</em>
+  </div>
+  <script>
+    const textElement = document.getElementById('typed-text');
+    const text = textElement.innerHTML;
+    textElement.innerHTML = '';
+
+    let index = 0;
+    function typeText() {
+        textElement.innerHTML += text[index];
+        index++;
+        if (index < text.length) {
+            setTimeout(typeText, 100);
+        }
+    }
+
+    setTimeout(typeText, 1000); // Delay before starting the typewriter effect
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+
+
+}
+
+.backgroundimg {
+    height: 100vh;
+    background-image: url(12063795_4884785.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: +1;
+
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.8);
+    /* Background color with transparency */
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    /* Decrease the width to your desired value */
+    margin: 0 auto;
+    /* Center the navbar horizontally */
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+.center {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 0s steps(40, end);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 200px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.5rem;
+    margin-bottom: 10px;
+
+}
+
+.about-section{   
+    background-color: #F4EEE0;
+    padding: 5% 15%; 
+    font-size: 1.3rem;
+  }
+  .about-section img{
+    width: 70%;
+    height: 100%;
+    border-radius: 100%;
+    text-align: right;
+  }
+  .about-section p{
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bolder;
+  }
+  .about-section h2{
+    text-align: center;
+    margin-bottom: 65px;
+  }
+  
+  .our-service{
+    background-color: #6D5D6E; 
+    padding: 5% 15%;
+    text-align: center;
+    color: white;
+  }
+  .our-service img{
+    width: 60%;
+    height: 30%;
+    border-radius: 50%;
+    margin-top: 30px;
+  
+    
+  }
+  .our-service p {
+    text-align: left;
+    margin-top: 30px;
+    font-size: 1.3rem;
+  }
+  .testimonials{
+    width: 100%;
+    background-color: #4F4557;
+    padding: 5% 15%;
+    text-align: center;
+    color: #fff;
+  }
+  .testimonials p, em{
+    font-size: 1.3rem;
+  }
+  .testimonials img{
+    width: 10%;
+    height: 50%;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  .foot{
+    padding: 5% 15%;
+    background-color: #393646;
+    text-align: center;
+    color: #fff;
+
+  }
+.foot img {
+    width: 8%;
+    padding: 15px;
+}
+.foot em{
+    margin-top: 100px;
+}
+@media (max-width: 992px) {
+    nav {
+        width: 50%;
+    }
+}
+
+    @media (max-width: 768px) {
+        nav {
+            width: 70%;
+        }
+
+        
+}
